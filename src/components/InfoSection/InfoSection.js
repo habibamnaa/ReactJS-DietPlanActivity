@@ -24,7 +24,7 @@ const infoSection = ({ primary, lightBg ,imgStart, lightTopLine, lightTextDesc ,
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to='/SignUp'>
+                                <Link to='/sign-up'>
                                     <Button big fontBig primary={primary}>
                                         {buttonlabel}
                                     </Button>
